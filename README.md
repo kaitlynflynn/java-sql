@@ -116,3 +116,12 @@ Answer the following data queries. Keep track of the SQL you write by pasting it
   - account `name` should be unique.
   - account `budget` is required.
 > This can be done with the CREATE TABLE clause
+
+My Code:   
+`CREATE TABLE accounts (`  
+    `id     INTEGER PRIMARY KEY AUTOINCREMENT`  
+                   `NOT NULL,`  
+    `name   STRING  UNIQUE`  
+                   `NOT NULL,`  
+    `budget INTEGER`  
+`);`
